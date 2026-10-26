@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elecciones>
+<fecha>16 de noviembre de 2026</fecha>
+<votantes>60000</votantes>
+<colegios>
+    <cantidad>2</cantidad>
+        <colegio1>
+            <nombre>Colegio San Jose</nombre>
+                <mesas>
+                <numero>2</numero>
+                <votantes>10</votantes>
+                <presidente>Juan Perez</presidente>
+                <vocales>
+                    <vocal1>Maria Lopez</vocal1>
+                    <vocal2>Carlos Sanchez</vocal2>
+                </vocales>
+                </mesas>
+        </colegio1>
+        <colegio2>
+            <nombre>Colegio Salesianos</nombre>
+                <mesas>
+                <numero>2</numero>
+                <votantes>25</votantes>
+                <presidente>Miguel Rodriguez</presidente>
+                <vocales>
+                    <vocal1>Ana Martinez</vocal1>
+                    <vocal2>Jose Gonzalez</vocal2>
+                </vocales>
+                </mesas>
+        </colegio2>
+</colegios>
+</elecciones>
