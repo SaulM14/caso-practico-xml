@@ -103,4 +103,4 @@
 <!-- Se han elegido ids adaptados a cada mueble de forma visual y sencilla numerandolos para facilitar su identificación. -->
 <!-- Se han elegido los cm como unidad de medida ya que son ampliamente utilizados y estandarizados. Resultando la medida mas entendible tanto para los clientes como para el personal de ventas. -->
 <!-- Elementos -->
-<!-- Se han elegido los elementos mesa, silla, armario y cama ya que son los muebles comunes y no es necesario implementarlos en forma de atributos -->
+<!-- Se han elegido los elementos mesa, silla, armario y cama ya que son los muebles comunes y no es necesario implementarlos en forma de atributos. -->
