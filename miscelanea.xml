@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento xmlns:elec="https://caso-practico-xml.example/vocabulario-electoral"
+           xmlns:mob="https://caso-practico-xml.example/vocabulario-mobiliario">
+<!-- La raíz común documento es necesaria porque XML solo permite un elemento raíz. -->
+<!-- Los namespaces se aplican solo a los bloques principales. Así se distinguen ambos vocabularios sin cambiar los nombres de sus elementos descendientes. -->
+<elec:elecciones>
+<fecha>16 de noviembre de 2026</fecha>
+<votantes>60000</votantes>
+<colegios>
+    <cantidad>2</cantidad>
+        <colegio1>
+            <nombre>Colegio San Jose</nombre>
+                <mesas>
+                <numero>2</numero>
+                <votantes>10</votantes>
+                <presidente>Juan Perez</presidente>
+                <vocales>
+                    <vocal1>Maria Lopez</vocal1>
+                    <vocal2>Carlos Sanchez</vocal2>
+                </vocales>
+                </mesas>
+        </colegio1>
+        <colegio2>
+            <nombre>Colegio Salesianos</nombre>
+                <mesas>
+                <numero>2</numero>
+                <votantes>25</votantes>
+                <presidente>Miguel Rodriguez</presidente>
+                <vocales>
+                    <vocal1>Ana Martinez</vocal1>
+                    <vocal2>Jose Gonzalez</vocal2>
+                </vocales>
+                </mesas>
+        </colegio2>
+</colegios>
+</elec:elecciones>
+
+<mob:mobiliario>
+    <mesa id="mesa1">
+        <dimensiones unidad="cm">
+            <largo>120</largo>
+            <ancho>120</ancho>
+            <alto>75</alto>
+        </dimensiones>
+        <stock>1</stock>
+    </mesa>
+    <mesa id="mesa2">
+        <dimensiones unidad="cm">
+            <largo>120</largo>
+            <ancho>120</ancho>
+            <alto>75</alto>
+        </dimensiones>
+        <stock>4</stock>
+    </mesa>
+    <mesa id="mesa3">
+        <dimensiones unidad="cm">
+            <largo>120</largo>
+            <ancho>120</ancho>
+            <alto>75</alto>
+        </dimensiones>
+        <stock>1</stock>
+    </mesa>
+    <mesa id="mesa4">
+        <dimensiones unidad="cm">
+            <largo>120</largo>
+            <ancho>120</ancho>
+            <alto>75</alto>
+        </dimensiones>
+        <stock>1</stock>
+    </mesa>
+    <mesa id="mesa5">
+        <dimensiones unidad="cm">
+            <largo>120</largo>
+            <ancho>120</ancho>
+            <alto>75</alto>
+        </dimensiones>
+        <stock>3</stock>
+    </mesa>
+    <silla id="silla1">
+        <dimensiones unidad="cm">
+            <largo>45</largo>
+            <ancho>45</ancho>
+            <alto>90</alto>
+        </dimensiones>
+        <stock>17</stock>
+    </silla>
+    <silla id="silla2">
+        <dimensiones unidad="cm">
+            <largo>45</largo>
+            <ancho>45</ancho>
+            <alto>90</alto>
+        </dimensiones>
+        <stock>12</stock>
+    </silla>
+    <armario id="armario1">
+        <dimensiones unidad="cm">
+            <largo>60</largo>
+            <ancho>100</ancho>
+            <alto>200</alto>
+        </dimensiones>
+        <stock>10</stock>
+    </armario>
+    <armario id="armario2">
+        <dimensiones unidad="cm">
+            <largo>60</largo>
+            <ancho>100</ancho>
+            <alto>200</alto>
+        </dimensiones>
+        <stock>14</stock>
+    </armario>
+    <armario id="armario3">
+        <dimensiones unidad="cm">
+            <largo>60</largo>
+            <ancho>100</ancho>
+            <alto>200</alto>
+        </dimensiones>
+        <stock>8</stock>
+    </armario>
+    <cama id="cama1">
+        <dimensiones unidad="cm">
+            <largo>200</largo>
+            <ancho>150</ancho>
+            <alto>50</alto>
+        </dimensiones>
+        <stock>7</stock>
+    </cama>
+    <cama id="cama2">
+        <dimensiones unidad="cm">
+            <largo>200</largo>
+            <ancho>150</ancho>
+            <alto>50</alto>
+        </dimensiones>
+        <stock>3</stock>
+    </cama>
+</mob:mobiliario>
+
+<!-- Comentarios sobre el mobiliario -->
+<!-- Atributos -->
+<!-- Se han elegido ids adaptados a cada mueble de forma visual y sencilla numerandolos para facilitar su identificación. -->
+<!-- Se han elegido los cm como unidad de medida ya que son ampliamente utilizados y estandarizados. Resultando la medida mas entendible tanto para los clientes como para el personal de ventas. -->
+<!-- Elementos -->
+<!-- Se han elegido los elementos mesa, silla, armario y cama ya que son los muebles comunes y no es necesario implementarlos en forma de atributos. -->
+</documento>
+
+
